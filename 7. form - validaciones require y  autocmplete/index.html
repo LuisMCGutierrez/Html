@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>require y autocomplete</title>  
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <form action="">
+                <label for="nombre">
+                    <span>Nombre</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+                <label for="correo">
+                    <span>Correo</span>
+                    <input type="email" name="email" id="email" autocomplete="email" required>
+                </label>
+                <label for="pais">
+                    <span>Pais</span>
+                    <input type="text"   name="pais" id="pais" autocomplete="country" required>
+                </label>
+                <label for="codigoPostal">
+                    <span>Codigo Postal</span>
+                    <input type="text"  name="codigoPostal" id="codigoPostal" autocomplete="postal-code" required>
+                </label>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
